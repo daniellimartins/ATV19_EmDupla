@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 12:04:56 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODA1OzIwMjYtMDQtMTQ7IjExOjU4OjIyICI7Mjg1Nw=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODA1OzIwMjYtMDQtMTQ7IjEyOjA0OjU2ICI7MTsyOTY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="javaS, python, s, n" type="String" array="False" size=""/>
+            <output expression="&quot;Informe a idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Sabe JavaScript? (s/n)&quot;" newline="True"/>
+            <input variable="javaS"/>
+            <output expression="&quot;Sabe python? (s/n)&quot;" newline="True"/>
+            <if expression="((idade &gt;=18) and ((javaS = &quot;s&quot;) or (python = &quot;s&quot;)))">
+                <then>
+                    <output expression="&quot;o curriculo foi aceito&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;o curriculo foi recusado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
