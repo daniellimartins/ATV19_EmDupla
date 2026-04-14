@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 12:04:53 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODExOzIwMjYtMDQtMTQ7IjExOjMyOjIxICI7Mjg0NQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODExOzIwMjYtMDQtMTQ7IjEyOjA0OjUzICI7MTsyOTU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="javaS, python, s, n" type="String" array="False" size=""/>
+            <output expression="&quot;Informe a idade do candidato: &quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Domina JavaScript? (s/n)&quot;" newline="True"/>
+            <input variable="javaS"/>
+            <output expression="&quot;Domina Python? (s/n)&quot;" newline="True"/>
+            <input variable="python"/>
+            <if expression="((idade &gt;= 18) and ((javaS =&quot;s&quot;) or (python = &quot;s&quot;)))">
+                <then>
+                    <output expression="&quot;O curr&#237;culo foi aceito!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O curr&#237;culo foi recusado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
